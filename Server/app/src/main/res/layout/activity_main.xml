@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:text="http://androidsrc.net/"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/infoip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/edtReply1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/btnReply1"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:text="Reply_TO_Client"/>
+
+
+
+</LinearLayout>
